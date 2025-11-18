@@ -6,7 +6,7 @@ export default function HomePage() {
         <p className="text-gray-600 mt-2">TanStack Router 코드 기반 라우팅 스타터</p>
       </div>
     </main>
-  )
+  );
 }
 
 

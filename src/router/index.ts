@@ -1,5 +1,5 @@
-import { createRouter } from '@tanstack/react-router'
-import { routeTree } from './routeTree'
+import { createRouter } from '@tanstack/react-router';
+import { routeTree } from './routeTree';
 
 export const router = createRouter({
   routeTree,
@@ -8,11 +8,11 @@ export const router = createRouter({
   scrollRestoration: true,
   defaultStructuralSharing: true,
   defaultPreloadStaleTime: 0,
-})
+});
 
 declare module '@tanstack/react-router' {
   interface Register {
-    router: typeof router
+    router: typeof router;
   }
 }
 
